@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "start:prod": "next start -p 80",
     "lint": "next lint",
-    "export":"next build && next export"
+    "export": "next build && next export"
   },
   "dependencies": {
     "next": "11.1.2",
